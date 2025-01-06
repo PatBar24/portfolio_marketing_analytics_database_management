@@ -12,7 +12,7 @@ file_df['subs_id'] = file_df['subs_id'].astype(str)
 
 db_name = "sb_database"
 db_user = "postgres"
-db_password = "tuco2025"
+db_password = "*******"
 db_host = "localhost"
 db_port = "5432"
 

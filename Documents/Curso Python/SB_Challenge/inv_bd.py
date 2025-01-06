@@ -14,7 +14,7 @@ file_df2['impressions'] = file_df2['impressions'].astype(float)
 
 db_name = "sb_database"
 db_user = "postgres"
-db_password = "tuco2025"
+db_password = "*******"
 db_host = "localhost"
 db_port = "5432"
 

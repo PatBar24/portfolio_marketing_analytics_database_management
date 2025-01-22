@@ -5,7 +5,7 @@ import time
 
 #Crear una base de datos POSTGRESQL con nombre SB_DATABASE
 
-file = pd.read_excel('/Users/patriciabartoloni/Downloads/investment_all_networks.xls')
+file = pd.read_excel('./investment_all_networks.xls')
 file_df2 = pd.DataFrame(file)
 
 file_df2['spend_usd'] = file_df2['spend_usd'].astype(float)
@@ -14,7 +14,7 @@ file_df2['impressions'] = file_df2['impressions'].astype(float)
 
 db_name = "sb_database"
 db_user = "postgres"
-db_password = "tuco2025"
+db_password = "*******"
 db_host = "localhost"
 db_port = "5432"
 

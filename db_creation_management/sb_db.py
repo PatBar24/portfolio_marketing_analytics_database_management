@@ -5,14 +5,14 @@ import time
 
 #Crear una base de datos POSTGRESQL con nombre SB_DATABASE
 
-file = pd.read_csv('/Users/patriciabartoloni/Downloads/ios_subscriber_data.csv')
+file = pd.read_csv('./ios_subscriber_data.csv')
 file_df = pd.DataFrame(file)
 file_df['subs_id'] = file_df['subs_id'].astype(str)
 
 
 db_name = "sb_database"
 db_user = "postgres"
-db_password = "tuco2025"
+db_password = "******"
 db_host = "localhost"
 db_port = "5432"
 

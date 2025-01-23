@@ -18,7 +18,7 @@ try:
 except requests.exceptions.RequestException as e:
     print(f"Error al realizar la solicitud HTTP: {e}")
 
-output_csv = "/Users/patriciabartoloni/Documents/Curso Python/SB_Challenge/api_data.csv"
+output_csv = "./api_data.csv"
 
 if data and 'quotes' in data:
     base_currency = data.get('source', 'USD')
